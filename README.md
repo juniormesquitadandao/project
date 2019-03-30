@@ -83,6 +83,9 @@ rails g paper_trail:install
 rails g devise:install
 rails g action_authorizer:install
 rails g devise user
-rails g devise:views
+rails g devise:i18n:views
 erb2slim -d app/views/
+rails g devise:i18n:locale en
+rails g responders:install
+rails g validates_timeliness:install
 ```
