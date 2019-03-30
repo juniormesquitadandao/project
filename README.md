@@ -89,4 +89,5 @@ rails g devise:i18n:locale en
 rails g responders:install
 rails g validates_timeliness:install
 rails g bugsnag API_KEY
+\curl https://raw.githubusercontent.com/svenfuchs/rails-i18n/rails-5-x/rails/locale/en.yml > config/locales/en.yml
 ```
