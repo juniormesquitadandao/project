@@ -88,4 +88,5 @@ erb2slim -d app/views/
 rails g devise:i18n:locale en
 rails g responders:install
 rails g validates_timeliness:install
+rails g bugsnag API_KEY
 ```
